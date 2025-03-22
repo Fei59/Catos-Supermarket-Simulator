@@ -1,0 +1,256 @@
+/* Body */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#producten{
+    display: none;
+}
+
+#geld{
+    display: none;
+}
+
+/* startscherm */
+#achtergrondEen{
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 100vh;
+}
+
+h1{
+    font-family: "Chewy", system-ui;
+    font-size: 70px;
+    position: absolute;
+    left: 63.5%;
+    bottom: 50%;
+    max-width: 6em;
+}
+
+/* startKnop: Canva */
+#startKnop{
+    position: absolute;
+    right: 9%;
+    bottom: 10%;
+    width: 30em;
+    -webkit-user-drag: none;
+}
+
+#audioKnopStart, #audioKnopStop{
+    width: 5%;
+    position: absolute;
+    left: 1%;
+    top: 2%;
+    -webkit-user-drag: none;
+}
+
+/* Popup */
+#informatieBalk{
+    width: 5%;
+    position: absolute;
+    left: 7%;
+    top: 2%;
+    -webkit-user-drag: none;
+}
+
+.informatie {
+    background-color: rgba(0, 0, 0, 0.5); 
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none; 
+}
+
+.informatie.open {
+    opacity: 1;
+    z-index: 999;
+    pointer-events: auto; 
+}
+
+.informatieBalkBinnen {
+    background-color: aliceblue;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px black;
+    padding: 15px 25px;
+    text-align: center;
+    width: 380px;
+}
+
+.informatieBalkBinnen p {
+    line-height: 24px;
+    margin: 10px;
+}
+
+/* supermarkt */
+#achtergrondTwee{
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+h3{
+    margin-left: 43%;
+    margin-top: 6%;
+    font-size: 12px;
+}
+
+#banaan{
+    position: fixed;
+    left: 60%;
+    top: 16%;
+}
+
+#watermeloen{
+    position: fixed;
+    left: 71%;
+    top: 6%;
+}
+
+#melk{
+    position: fixed;
+    top: 29.3%;
+    left: 60%
+}
+
+/* Cola img: Pinterest */
+#cola{
+    position: fixed;
+    top: 29%;
+    height: 21%;
+    left: 88%
+}
+
+#fanta{
+    position: fixed;
+    top: 29.3%;
+    left: 94%
+}
+
+/* Ei img: Pinterest */
+#ei{
+    position: fixed;
+    top: 66%;
+    left: 68.5%
+}
+
+#kaas{
+    position: fixed;
+    top: 65.3%;
+    left: 60%
+}
+
+ /* Tomaat img: Pinterest */
+#tomaat{
+    position: fixed;
+    top: 66%;
+    left: 80%
+}
+
+#zalm{
+    position: fixed;
+    top: 85%;
+    left: 60%
+}
+
+/* Prei img: Pinterest */
+#prei{
+    position: fixed;
+    width: 15%;
+    left: 84.5%;
+    top: 19%;
+}
+
+/* Ananas img: Pinterest */
+#ananas{
+    position: fixed;
+    left: 82%;
+    top: 29%;
+}
+
+/* Wijn img: Pinterest */
+#wijn{
+    position: fixed;
+    left: 77%;
+    top: 25.5%;
+}
+
+/* Jam img: Pinterest */
+#jam{
+    position: fixed;
+    left: 68.5%;
+    top: 34.5%;
+}
+
+/* Appel img: Pinterest */
+#appel{
+    position: fixed;
+    width: 5%;
+    left: 87%;
+    top: 65.5%;
+}
+
+/* Pudding img: Pinterest */
+#pudding{
+    position: fixed;
+    width: 5%;
+    left: 94%;
+    top: 65.5%;
+}
+
+/* Wafer img: Pinterest */
+#wafer{
+    position: fixed;
+    width: 10%;
+    left: 72%;
+    top: 88%;
+}
+
+#randomLijst{
+    position: relative;
+    left: 43%;
+    font-size: 13px;
+    top: 1%;;
+}
+
+#pijlVerder{
+    position: absolute;
+    top: 83%;
+    left: 84%;
+    width: 13.5em;
+    -webkit-user-drag: none;
+}
+
+/* kassa */
+#achtergrondDrie{
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+h4{
+    margin-left: 72%;
+    margin-top: 12.5%;
+}
+
+#geld{
+    position: fixed;
+    top: 75%;
+    left: 44%;
+}
+
+/* betaald */
+#achtergrondVier{
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
