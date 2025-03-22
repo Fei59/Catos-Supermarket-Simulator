@@ -89,7 +89,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     productAfbeeldingen.forEach(image => {
-        image.addEventListener("drag", function () {
+        image.addEventListener("click", function () {
             const productNaam = image.dataset.item; 
             if (boodschappenlijst.has(productNaam)) { 
                 alert(`${productNaam} zit in je boodschappenmand!`);
